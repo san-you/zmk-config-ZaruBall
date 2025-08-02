@@ -110,11 +110,11 @@
             display-name = "Base";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&kp ESC    &kp N1      &kp N2  &kp N3    &kp N4     &kp N5                            &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                 &kp NUMBER_6  &kp N7  &kp N8     &kp N9   &kp N0    &kp MINUS
-&kp TAB    &kp Q       &kp W   &kp E     &kp R      &kp T                             &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY               &kp Y         &kp U   &kp I      &kp O    &kp P     &kp EQUAL
-&kp CAPS   &kp A       &kp S   &kp D     &kp F      &kp G               &kp INS       &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT   &kp H         &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z       &kp X   &kp C     &kp V      &kp B               &kp GRAVE     &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT   &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH  &lt SCROLL BACKSLASH
-&td0       &kp C_MUTE          &kp LWIN  &kp LCTRL  &SandS LSHFT SPACE  &mo SCROLL                                                            &lt 3 RET  &kp BSPC                                            &td1
+&kp ESC       &kp N1      &kp N2  &kp N3    &kp N4        &kp N5                               &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                      &kp NUMBER_6  &kp N7  &kp N8  &kp N9    &kp N0    &kp SPACE
+&kp TAB       &kp Q       &kp W   &kp E     &kp R         &kp T                                &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                    &kp Y         &kp U   &kp I   &kp O     &kp P     &none
+&kp LCTRL     &kp A       &kp S   &kp D     &kp F         &kp G        &kp INS                 &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT        &kp H         &kp J   &kp K   &kp L     &kp UP    &none
+&kp LSHFT     &kp Z       &kp X   &kp C     &kp V         &kp B        &kp LANGUAGE_2          &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp LANGUAGE_1  &kp N         &kp M   &none   &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LEFT_ALT  &kp C_MUTE          &kp LWIN  &lt 7 DELETE  &lt 1 SPACE  &lt SCROLL BACKSPACE                                                            &lt 3 RET       &kp BSPC                                          &to 1
             >;
         };
 
@@ -134,11 +134,11 @@
             display-name = "Lower";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5                 &trans  &trans  &trans  &trans              &kp LA(F2)    &kp KP_N7   &kp KP_N8  &kp KP_N9     &kp KP_SLASH     &kp KP_NUMLOCK
-&trans  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10                &trans  &trans  &trans  &trans              &kp LA(F1)    &kp KP_N4   &kp KP_N5  &kp KP_N6     &kp KP_MULTIPLY  &none
-&trans  &kp F11    &kp F12   &kp UP    &none      &kp HOME  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp C_VOL_UP  &kp KP_N1   &kp KP_N2  &kp KP_N3     &kp KP_MINUS     &none
-&trans  &none      &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &kp C_VOL_DN  &kp KP_DOT  &kp KP_N0  &kp KP_EQUAL  &kp KP_PLUS      &none
-&trans  &kp RSHFT            &trans    &trans     &trans    &trans                                         &trans    &kp DEL                                                             &studio_unlock
+&trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5                 &trans  &trans  &trans  &trans              &kp MINUS       &kp EQUAL         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp GRAVE
+&trans  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10                &trans  &trans  &trans  &trans              &kp UNDERSCORE  &kp PLUS          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE           &kp TILDE
+&trans  &kp F11    &kp F12   &kp UP    &none      &kp HOME  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp COMMA       &kp PERIOD        &kp SLASH         &kp SEMICOLON      &kp SQT            &none
+&trans  &none      &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION      &kp COLON          &kp DOUBLE_QUOTES  &none
+&trans  &kp RSHFT            &trans    &trans     &trans    &trans                                         &trans    &kp DEL                                                                                   &studio_unlock
             >;
         };
 
@@ -171,5 +171,15 @@
         extra1 { status = "reserved"; };
 
         extra2 { status = "reserved"; };
+
+        util_layer {
+            bindings = <
+&trans         &trans  &trans         &trans         &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans            &trans
+&kp LG(TAB)    &trans  &trans         &trans         &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans            &trans
+&kp LC(SPACE)  &trans  &trans         &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &kp LA(LC(UP))    &trans
+&kp LS(SPACE)  &trans  &kp LS(LC(X))  &kp LS(LC(C))  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LA(LC(LEFT))  &kp LA(LC(DOWN))  &kp LA(LC(RIGHT))
+&kp LA(SPACE)  &trans                 &trans         &trans  &trans  &trans                                      &trans  &trans                                                      &trans
+            >;
+        };
     };
 };
