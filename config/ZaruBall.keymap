@@ -136,7 +136,7 @@
             bindings = <
 &trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5                 &trans  &trans  &trans  &trans              &kp MINUS       &kp EQUAL         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp GRAVE
 &trans  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10                &trans  &trans  &trans  &trans              &kp UNDERSCORE  &kp PLUS          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE           &kp TILDE
-&trans  &kp F11    &kp F12   &kp UP    &none      &kp HOME  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp COMMA       &kp PERIOD        &kp SLASH         &kp SEMICOLON      &kp SQT            &none
+&trans  &kp F11    &kp F12   &kp UP    &kp MINUS  &kp HOME  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp COMMA       &kp PERIOD        &kp SLASH         &kp SEMICOLON      &kp SQT            &none
 &trans  &none      &kp LEFT  &kp DOWN  &kp RIGHT  &kp END   &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION      &kp COLON          &kp DOUBLE_QUOTES  &none
 &trans  &kp RSHFT            &trans    &trans     &trans    &trans                                         &trans    &kp DEL                                                                                   &studio_unlock
             >;
@@ -146,11 +146,11 @@
             display-name = "Raise";
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
             bindings = <
-&trans  &none  &none  &none      &none      &none                              &trans  &trans  &trans  &trans               &none     &none     &none     &none      &none  &none
-&trans  &none  &none  &none      &none      &none                              &trans  &trans  &trans  &trans               &none     &none     &none     &none      &none  &none
-&trans  &none  &none  &mkp RCLK  &mkp LCLK  &msc SCRL_UP    &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &kp PG_UP  &kp HOME  &none     &kp UP    &none      &none  &none
-&trans  &none  &none  &mkp MB4   &mkp MB5   &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &kp PG_DN  &kp END   &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
-&trans  &none         &trans     &trans     &trans          &trans                                               &trans     &kp DEL                                         &trans
+&trans  &kp F1  &kp F2  &kp F3     &kp F4     &kp F5                             &trans  &trans  &trans  &trans               &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
+&trans  &none   &none   &none      &none      &none                              &trans  &trans  &trans  &trans               &none     &none     &none     &none      &none    &kp F12
+&trans  &none   &none   &mkp RCLK  &mkp LCLK  &msc SCRL_UP    &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &kp PG_UP  &kp HOME  &none     &kp UP    &none      &none    &none
+&trans  &none   &none   &mkp MB4   &mkp MB5   &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &kp PG_DN  &kp END   &kp LEFT  &kp DOWN  &kp RIGHT  &none    &none
+&trans  &none           &trans     &trans     &trans          &trans                                               &trans     &kp DEL                                           &trans
             >;
         };
 
