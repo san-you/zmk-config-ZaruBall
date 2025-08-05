@@ -176,7 +176,7 @@
             bindings = <
 &trans         &trans  &trans         &trans         &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans            &trans
 &kp LG(TAB)    &trans  &trans         &trans         &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans            &trans
-&kp LC(SPACE)  &trans  &trans         &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &kp LA(LC(UP))    &trans
+&kp LG(SPACE)  &trans  &trans         &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &kp LA(LC(UP))    &trans
 &kp LS(SPACE)  &trans  &kp LS(LC(X))  &kp LS(LC(C))  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LA(LC(LEFT))  &kp LA(LC(DOWN))  &kp LA(LC(RIGHT))
 &kp LA(SPACE)  &trans                 &trans         &trans  &trans  &trans                                      &trans  &trans                                                      &trans
             >;
