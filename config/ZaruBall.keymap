@@ -176,8 +176,8 @@
             bindings = <
 &trans         &trans  &trans         &trans         &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans            &trans
 &kp LG(TAB)    &trans  &trans         &trans         &trans  &trans            &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans            &trans            &trans
-&kp LG(SPACE)  &trans  &trans         &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &kp LA(LG(UP))    &trans
-&kp LS(SPACE)  &trans  &kp LS(LG(X))  &kp LS(LG(C))  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LA(LG(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))
+&kp LG(SPACE)  &trans  &trans         &trans         &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans            &kp LG(LC(UP))    &trans
+&kp LS(SPACE)  &trans  &kp LS(LG(X))  &kp LS(LG(C))  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LG(LC(LEFT))  &kp LG(LC(DOWN))  &kp LG(LC(RIGHT))
 &kp LA(SPACE)  &trans                 &trans         &trans  &trans  &trans                                      &trans  &trans                                                      &trans
             >;
         };
